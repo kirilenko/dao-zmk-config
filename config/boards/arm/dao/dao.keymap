@@ -41,10 +41,10 @@
 
                 raise_layer {
                         bindings = <
-  &none   &none    &none          &mt LSHFT LC(RET)    &mt LALT E    &mt LALT R    &mt LALT T     &none           &none          &none          &none          &none          &none    &none
-          &none    &trans         &mt LALT S           &mt LALT D    &mt LALT F    &mt LALT G     &none           &none          &none          &none          &trans         &none
-          &none    &none          &mt LALT X           &mt LALT C    &mt LALT V    &mt LALT B     &none           &none          &none          &none          &none          &none
-                                                       &none         &none         &trans         &trans          &none          &none
+  &none   &none    &none          &kp LS(LC(RET))    &kp LA(E)    &kp LA(R)    &kp LA(T)     &none           &none          &none          &none          &none          &none    &none
+          &none    &trans         &kp LA(S)          &kp LA(D)    &kp LA(F)    &kp LA(G)     &none           &none          &none          &none          &trans         &none
+          &none    &none          &kp LA(X)          &kp LA(C)    &kp LA(V)    &kp LA(B)     &none           &none          &none          &none          &none          &none
+                                                     &none        &none        &trans        &trans          &none          &none
                         >;
                 };
 
