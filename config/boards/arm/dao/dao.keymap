@@ -34,17 +34,17 @@
                         bindings = <
   &none   &mt LGUI MINUS    &mt LGUI N1        &mt LGUI N2    &mt LGUI N3    &mt LGUI N4    &mt LGUI N5    &mt LGUI N6    &mt LGUI N7    &mt LGUI N8    &mt LGUI N9    &mt LGUI N0    &mt LGUI EQUAL    &none
           &none             &kp N1             &kp N2         &kp N3         &kp N4         &kp N5         &kp N6         &kp N7         &kp N8         &kp N9         &kp N0         &kp GRAVE
-          &none             &mt LSHFT LG(Z)    &kp LBKT       &kp RBKT       &kp MINUS      &kp PLUS       &kp EXCL       &kp EQUAL      &kp LPAR       &kp RPAR       &kp STAR       &none
+          &kp LCTRL         &mt LSHFT LG(Z)    &kp LBKT       &kp RBKT       &kp MINUS      &kp PLUS       &kp EXCL       &kp EQUAL      &kp LPAR       &kp RPAR       &kp STAR       &kp RCTRL
                                                               &trans         &none          &none          &none          &none          &trans
                         >;
                 };
 
                 raise_layer {
                         bindings = <
-  &none   &none    &none          &mt LSHFT LC(RET)    &mt LALT E    &mt LALT R    &mt LALT T    &none          &none          &none          &none          &none          &none    &none
-          &none    &trans         &mt LALT S           &mt LALT D    &mt LALT F    &mt LALT G    &none          &none          &none          &none          &trans         &none
-          &none    &none          &mt LALT X           &mt LALT C    &mt LALT V    &mt LALT B    &none          &none          &none          &none          &none          &none
-                                                       &none         &none         &none         &none          &none          &none
+  &none   &none    &none          &mt LSHFT LC(RET)    &mt LALT E    &mt LALT R    &mt LALT T     &none           &none          &none          &none          &none          &none    &none
+          &none    &trans         &mt LALT S           &mt LALT D    &mt LALT F    &mt LALT G     &none           &none          &none          &none          &trans         &none
+          &none    &none          &mt LALT X           &mt LALT C    &mt LALT V    &mt LALT B     &none           &none          &none          &none          &none          &none
+                                                       &none         &none         &trans         &trans          &none          &none
                         >;
                 };
 
