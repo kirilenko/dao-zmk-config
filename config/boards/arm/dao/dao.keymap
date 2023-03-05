@@ -33,8 +33,8 @@
                 lower_layer {
                         bindings = <
   &none   &kp LG(MINUS)      &kp LG(N1)       &kp LG(N2)     &kp LG(N3)     &kp LG(N4)     &kp LG(N5)     &kp LG(N6)     &kp LG(N7)     &kp LG(N8)     &kp LG(N9)     &kp LG(N0)     &kp LG(EQUAL)    &none
-          &kp LS(LC(RET))    &kp N1           &kp N2         &kp N3         &kp N4         &kp N5         &kp N6         &kp N7         &kp N8         &kp N9         &kp N0         &kp GRAVE
-          &kp LCTRL          &kp LS(LG(Z))    &kp LBKT       &kp RBKT       &kp MINUS      &kp PLUS       &kp EXCL       &kp EQUAL      &kp LPAR       &kp RPAR       &kp STAR       &kp RCTRL
+          &kp LS(LC(RET))    &kp LS(LG(Z))    &kp LBKT       &kp RBKT       &kp MINUS      &kp PLUS       &kp EXCL       &kp EQUAL      &kp LPAR       &kp RPAR       &kp STAR       &kp GRAVE
+          &kp LCTRL          &kp N1           &kp N2         &kp N3         &kp N4         &kp N5         &kp N6         &kp N7         &kp N8         &kp N9         &kp N0         &kp RCTRL
                                                              &trans         &none          &none          &none          &none          &trans
                         >;
                 };
